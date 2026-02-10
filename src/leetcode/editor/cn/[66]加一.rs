@@ -56,16 +56,17 @@ impl Solution {
         let mut forward = 1;
         for v in digits.iter().rev() {
             if v + forward >= 10 {
-                vec.insert(0, v + forward - 10);
+                vec.push(v + forward - 10);
                 forward = 1;
             } else {
-                vec.insert(0, v + forward);
+                vec.push(v + forward);
                 forward = 0;
             }
         }
         if forward == 1 {
-            vec.insert(0, forward);
+            vec.push(forward);
         }
+        vec.reverse();
         vec
     }
 }

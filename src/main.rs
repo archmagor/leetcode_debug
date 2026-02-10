@@ -16,5 +16,6 @@ mod leetcode_cn {
     // include!("leetcode/editor/cn/[28]找出字符串中第一个匹配项的下标.rs");
     // include!("leetcode/editor/cn/[35]搜索插入位置.rs");
     // include!("leetcode/editor/cn/[58]最后一个单词的长度.rs");
-    include!("leetcode/editor/cn/[66]加一.rs");
+    // include!("leetcode/editor/cn/[66]加一.rs");
+    include!("leetcode/editor/cn/[67]二进制求和.rs");
 }
