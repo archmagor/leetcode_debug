@@ -18,5 +18,7 @@ mod leetcode_cn {
     // include!("leetcode/editor/cn/[58]最后一个单词的长度.rs");
     // include!("leetcode/editor/cn/[66]加一.rs");
     // include!("leetcode/editor/cn/[67]二进制求和.rs");
-    include!("leetcode/editor/cn/[83]删除排序链表中的重复元素.rs");
+    // include!("leetcode/editor/cn/[83]删除排序链表中的重复元素.rs");
+    // include!("leetcode/editor/cn/[88]合并两个有序数组.rs");
+    include!("leetcode/editor/cn/[94]二叉树的中序遍历.rs");
 }
