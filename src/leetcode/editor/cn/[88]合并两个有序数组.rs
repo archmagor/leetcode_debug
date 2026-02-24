@@ -71,8 +71,6 @@ impl Solution {
             }
         }
 
-
-
         for x in i..m {
             nums.push(nums1[x as usize]);
         }
