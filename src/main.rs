@@ -20,5 +20,6 @@ mod leetcode_cn {
     // include!("leetcode/editor/cn/[67]二进制求和.rs");
     // include!("leetcode/editor/cn/[83]删除排序链表中的重复元素.rs");
     // include!("leetcode/editor/cn/[88]合并两个有序数组.rs");
-    include!("leetcode/editor/cn/[94]二叉树的中序遍历.rs");
+    // include!("leetcode/editor/cn/[94]二叉树的中序遍历.rs");
+    include!("leetcode/editor/cn/[100]相同的树.rs");
 }

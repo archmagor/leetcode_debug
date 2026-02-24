@@ -91,13 +91,9 @@ impl Solution {
 pub fn traversal(vec: &mut Vec<i32>, node: &Option<Rc<RefCell<TreeNode>>>) {
     if node.is_some() {
         let a = node.as_ref().unwrap().borrow();
-        if a.left != None {
-            traversal(vec, &a.left);
-        }
+        traversal(vec, &a.left);
         vec.push(a.val);
-        if a.right != None {
-            traversal(vec, &a.right);
-        }
+        traversal(vec, &a.right);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
